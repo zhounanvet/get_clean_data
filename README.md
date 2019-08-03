@@ -47,7 +47,7 @@ all_with_name<-cbind(all,label)
 
 
 
-##### creates a second, independent tidy data set with the #######
+####### creates a second, independent tidy data set with the #######
 #####average of each variable for each activity and each subject.#######
 subject<-c(subject_train$V1, subject_test$V1)
 
