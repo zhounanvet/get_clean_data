@@ -58,3 +58,4 @@ library(dplyr)
 final<-all_with_subject %>% group_by(subject,label) %>% 
                      summarise_if(is.numeric,mean,na.rm = TRUE)
 
+write.table(final, file='./get_clean_data/clean_data.txt',row.names = FALSE)
